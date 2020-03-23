@@ -15,6 +15,7 @@ The following process related functions are available:
 - GetPEB
 - GetEntrypoint
 - IsNative
+- GetProcessInfo
 
 ---
 
@@ -26,11 +27,8 @@ The following thread related functions are available and will return information
 - GetThreadStartAddress
 - IsThreadWorkerThread
 - IsThreadInAlertableState (this function doesn't support x64 to wow64)
+- GetThreadInfo
 
 ---
 
-By calling GetProcessInfo or GetThreadInfo it's possible to get a pointer to SYSTEM_PROCESS_INFORMATION	or a SYSTEM_THREAD_INFORMATION structure.
-
----
-
-GetLdrEntry returns a pointer to the LDR_DATA_TABLE_ENTRY of the specified module in the PEB.
+GetLdrEntry returns a pointer to the LDR_DATA_TABLE_ENTRY structure of the specified module in the PEB.
