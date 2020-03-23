@@ -25,7 +25,7 @@ The following thread related functions are available and will return information
 - GetThreadState
 - GetThreadStartAddress
 - IsThreadWorkerThread
-- IsThreadInAlertableState
+- IsThreadInAlertableState (this function doesn't support x64 to wow64)
 
 ---
 
