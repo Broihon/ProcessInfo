@@ -1,7 +1,7 @@
 ## ProcessInfo
 
 A small class to gather information about a Windows process, its threads and modules.
-Both x86 and x64 are supported. Gathering information from a x64 process of a WOW64 process works aswell.
+It supports both x86 and x64. Gathering information from a x64 process of a WOW64 process works aswell.
 
 It gathers information using NtQuerySystemInformation, NtQueryInformationProcess and NtQueryInformationThread.
 
